@@ -1,0 +1,5 @@
+# This project is a static frontend (static/) with no build step.
+# These settings override the build command/publish directory set in the Netlify UI.
+[build]
+  command = "echo 'No build step required'"
+  publish = "static"
